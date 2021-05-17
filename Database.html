@@ -41,33 +41,61 @@
         </h2>
     </div>
 
+    <h3 class="w3-container w3-theme-l3">
+        Info
+    </h3>
     <div class="w3-container">
         <p>Ik heb besloten om een database op te stellen voor de the sky is the limit (tsitl). Dit is een sport club in
             Sint-Antonius Zoersel.</p>
-        <p>Ze gaan deze database gebruiken om te zien welke turner nog moet betalen. Welke trainer/medewerken betaalt
-            krijgt en om te zien dat er niet te veel groepen tijdens het zelfde moment in de zalen zijn.</p>
+        <p>Ze gaan deze database gebruiken om te zien dat er niet te veel groepen tijdens het zelfde moment in de zalen
+            zijn.</p>
+
+    </div>
+    <h3 class="w3-container w3-theme-l3">
+        ERD-model
+    </h3>
+    <div class="w3-container">
         <p>Ik ben begonnen met het ERD-model in Lucid Chart op te stellen. Ik heb tijdens het opmaken van het model al
             rekening gehouden met het normaliseren van een database. Hier ziet u een het ERD-model.</p>
         <img src="Afbeeldingen/Database1.png" alt="foto van ERD-model">
-        
-        <p>Ik heb dit ERD-model na gekeken of er proces gegevens en samengestelde in staan. Daarna heb ik gekeken of er repeterende groepen zijn t.o.v. de primaire sleutel. Dit is het resultaat</p>
-        <img src="Afbeeldingen/Database2.png" alt="foto 1ste normaal vorm">
 
+        <p>Een turner moet in een groep zitten en mag in meerdere groepen zitten.</p>
+        <p>Een groep moet een turner bevatten en mag meerdere turners bevatten.</p>
+        <p>Een groep moet een lestijd hebben en mag meerdere lestijden hebben.</p>
+        <p>Een lestijd moet een groep bevatten en mag maar 1 groep bevatten.</p>
+        <p>Een groep met een trainer hebben en mag meerdere trainers bevatten.</p>
+        <p>Een trainer moet trainig geven aan een groep en mag aan meerdere groepen training geven.</p>
+        <p>Een trainer mag een cursus volgen en kan meerdere volgen.</p>
+        <p>Een Cursus moet gevolgd worden door een trainer en kan gevolgt worden door meerdere trainers</p>
+    </div>
+
+
+    <h3 class="w3-container w3-theme-l3">
+        Normalisatie
+    </h3>
+    <div class="w3-container">
+        <p>Ik heb dit ERD-model na gekeken of er proces gegevens en samengestelde in staan. Daarna heb ik gekeken of er
+            repeterende groepen zijn t.o.v. de primaire sleutel. Dit is het resultaat</p>
         <p>Daarna heb ik bij de samengestelde sleutels gezocht naar velden die alleen afhangen van een deel van een
             samengestelde sleutel.</p>
-        <img src="Afbeeldingen/Database3.png" alt="foto 2de normaal vorm">
-
         <p>Als laatste normaal vorm heb ik gezocht naar velden die alleen afhangen van een ander niet-sleutelveld.</p>
-        <img src="Afbeeldingen/Database3.png" alt="foto 3de normaal vorm">
+        <img src="D:\Gipwebsite\Afbeeldingen\Database2.png" alt="foto van normalisatie">
+    </div>
 
-        <p>Hier na heb ik de database gemaakt die u onder de afbeelding kan downloaden. Hier onder ziet u een screenshot van de database.</p>
+    <h3 class="w3-container w3-theme-l3">
+        Database
+    </h3>
+    <div class="w3-container">
+        <p>Hier na heb ik de database gemaakt die u onder de afbeelding kan downloaden. Hier onder ziet u een screenshot
+            van de database.</p>
         <img src="Afbeedlingen/Database4.png" alt="foto van EER-model in database">
-
     </div>
     <div class="W3-container w3-theme-l2">
-        <h3 class="w3-container"><ahref="https://drive.google.com/file/d/10CxbLoxbC55En9sME9xf2Z9Qbz4Bs-vT/view?usp=sharing">
-            download database
-        </a></h3>
+        <h3 class="w3-container">
+            <a href="https://drive.google.com/file/d/10CxbLoxbC55En9sME9xf2Z9Qbz4Bs-vT/view?usp=sharing">
+                download database
+                </a>
+        </h3>
     </div>
 
 
