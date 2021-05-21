@@ -1,2 +1,2 @@
 # Gipwebsite
-dit is de reposetory van mijn gipwebsite
+Dit is de repository van mijn gipwebsite
